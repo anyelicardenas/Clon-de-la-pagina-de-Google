@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6em;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    padding: 1em;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 250px;
+    height: auto;
+
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: black;
+}
+
+nav .nav-right-section  .menu-icon{
+    background-image: url(./imagenes/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section .menu-photo{
+    background-image: url(./imagenes/unnamed.png);
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+main{
+    text-align: center;
+    margin-top: 150px;
+}
+
+main .main-logo{
+    width: 530px;
+    padding-bottom:45px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+main .main-logo img{
+    width: 300px;
+}
+
+main .main-input{
+    margin-bottom:25px;
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #202124;
+}
+
+.main-input .main-input-container .search-icon{
+    background-image: url(./imagenes/search.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;  
+    background-position: center;
+}
+
+.main-input .main-input-container .micro-icon{
+    background-image: url(./imagenes/mic.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;  
+    background-position: center;
+}
+
+main .button-google{
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+main .button-google div{
+    display: block;
+}
+main .button-google button{
+    height: 36px;
+    background-color:#f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    font-size: 1.6rem;
+    color: #5f6368;
+    padding: 0 16px;
+}
+
+main .button-google button:hover{
+    box-shadow: 0 1px 6px 0 #202124;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding: left;
+}
+
+footer .textleft{
+    justify-self: left;
+}
+
+footer .textright{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin-left: 15px;
+    color: #5f6368;
+}
